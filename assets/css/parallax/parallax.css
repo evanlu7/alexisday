@@ -26,22 +26,22 @@ html, body {
 
 }
 .container section:nth-child(1) .image {
-  background-image: url("../../../assets/img/trnrtips-bkgd-2.jpg");
+  background-image: url("../../../assets/img/bkgd-img-2.jpg");
 }
 .container section:nth-child(2) .image {
-  background-image: url(../../../assets/img/mountain-bg.jpg);
+  background-image: url();
 }
 .container section:nth-child(3) .image {
-  background-image: url(../../../assets/img/mountain-bg.jpg);
+  background-image: url();
 }
 .container section:nth-child(4) .image {
-  background-image: url(../../../assets/img/mountain-bg.jpg);
+  background-image: url();
 }
 .container section:nth-child(5) .image {
-  background-image: url(../../../assets/img/mountain-bg.jpg);
+  background-image: url();
 }
 .container section:nth-child(6) .image {
-  background-image: url(../../../assets/img/mountain-bg.jpg);
+  background-image: url();
 }
 .container section .image {
   background-attachment: fixed;
