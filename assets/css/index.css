@@ -1,7 +1,11 @@
 @media only screen and (max-width: 3000px) {
   /*CSS for desktop*/
   
+.lightswitch {
+  position: relative;
+  bottom: 300px;
 
+}
 
 
 
