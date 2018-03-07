@@ -1,5 +1,9 @@
-$(document).ready(function() {
-  var scroll_pos = 0;
+$(document).ready(function () {
+  //your code here
+ var scroll_pos = 0;
+
+
+ 
   $(document).scroll(function() {
     scroll_pos = $(this).scrollTop();
     if (scroll_pos > 50) {
@@ -10,10 +14,10 @@ $(document).ready(function() {
       $("nav a").css('color', 'white');
     }
   });
-});
 
-$(document).ready(function() {
-  var scroll_pos = 0;
+
+
+
   $(document).scroll(function() {
     scroll_pos = $(this).scrollTop();
     if (scroll_pos > 90) {
@@ -21,11 +25,11 @@ $(document).ready(function() {
     } else {
       $(".social").addClass("");
     }
-  });
+
 });
 
-$(document).ready(function() {
-  var scroll_pos = 0;
+
+
   $(".a1").addClass('visibility: hidden');
   $(document).scroll(function() {
     scroll_pos = $(this).scrollTop();
@@ -35,11 +39,11 @@ $(document).ready(function() {
     } else {
         $(".a1").addClass('visibility: hidden');
     }
-  });
+
 });
 
-$(document).ready(function() {
-var scroll_pos = 0;
+
+
 $(document).scroll(function() {
   scroll_pos = $(this).scrollTop();
 
@@ -52,6 +56,7 @@ $(document).scroll(function() {
     $("button").css('background-color', '');
     $("button").addClass('');
   }
-    });
+
 });
 
+});
