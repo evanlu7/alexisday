@@ -55,5 +55,17 @@ $(document).ready(function () {
 });  
 
 
+    $(document).scroll(function() {
+    scroll_pos = $(this).scrollTop();
+    if (scroll_pos > 1200) {
+      $(".brands").addClass("animated bounceInRight");
+       $(".brands").addClass('visibility: visible');
+    } else {
+        $(".brands").addClass('visibility: hidden');
+    }
+
+});  
+
+
 
 });
