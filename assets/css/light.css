@@ -1,6 +1,12 @@
 /*               <!-- Pure CSS Redo of: -->
 <!-- https://codepen.io/rachelmcgrane/pen/ZLaBVW -->
 */
+.lightswitch {
+  position: relative;
+  top: 200px;
+
+}
+
 
 * {
 	margin: 0;
@@ -99,7 +105,7 @@
 }
 
 .dark {
-	position: fixed;
+	position: relative;
 	top: calc((50vh - 100px) * -1);
 	left: calc((50vw - 60px) * -1);
 	width: 100vw;
