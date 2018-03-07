@@ -1,14 +1,21 @@
 @media only screen and (max-width: 3000px) {
   /*CSS for desktop*/
-   /*start new trnrtips edits*/ 
-   footer {
-    width: 100%;
-    max-width: 100%;
-  }
+  
 
+/*various divs*/
+
+#two {
+  position: relative;
+}
   #row1 {
     position: relative;
-    bottom: 200px;
+    bottom: 312px;
+  }
+
+  #shadow {
+    position: relative;
+    bottom: 90px;
+    left: 75px;
   }
 
 
@@ -24,7 +31,6 @@
 
 
   .page {
-    background-color: #F4F7FA;
     max-width: 100%;
     max-height: 100%;
     width: 100%;
@@ -46,44 +52,41 @@
   }
 
   .navbar {
-
     max-height: 120px;
     background-color: transparent;
   }
   #logo {
     position: relative;
     bottom: 50px;
-    max-height: 50%;
-    max-width: 50%;
+    max-height: 75%;
+    max-width: 75%;
   }
   #main-pic {
     position: relative;
-    bottom: 50px;
+    bottom: 90px;
     max-width: 100%;
     max-height: 100%;
-    opacity: 1;
+    opacity: 2;
     z-index: -5;
   
   }
 
-  #infoBox {
-    background-color: white;
-    padding: 0px;
-    width: 100%;
-    height: 325px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: black;
-  }
 
   #section2 {
-    height: 725px;
+    height: 800px;
+  }
+
+   #section3 {
+    position: relative;
+    height: 800px;
+    background-color: ;
   }
 
 
-  #section3 {
+  #section4 {
     height: 125px;
     padding: 10px;
+    background-color: white;
   }
 
   .slideOutRight {
@@ -91,6 +94,11 @@
     height: 0px;
   }
 
+.slideInLeft{
+  animation-delay: 4s;
+  height: 0px;
+  z-index: -100;
+}
 
 
   .fadeIn {
@@ -108,18 +116,10 @@
     animation-delay: 6s;
     margin-left: 40px;
   }
-  /*end new trnrtips edits*/
-  /*for intro animations*/
-  /*end animation section*/
+
   #alignRight {
     align-items: flex-end;
   }
-
-
-
-
-
-
 
   .navbar-brand {
     padding: 0 15px;
@@ -143,21 +143,9 @@
       line-height: 0px;
     }
   
-
-
-
-  .large-text {
-    font-size: 2rem;
-  }
-
-  .blue-text {
-    color: #2b90d9;
-  }
-
-  .get-details:hover {
-    color: #2b90d9;
-    cursor: pointer;
-  }
+.a1 {
+  visibility: hidden;
+}
 
 
 
@@ -189,14 +177,10 @@
 /*CSS for mobile*/
   #main-pic {
     position: relative;
-    bottom: 50px;
-    max-width: 100%;
-    max-height: 100%;
-    opacity: 1;
+    top:100px;
+    height: 500px;
+    width: 500px;
     z-index: -5;
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
   }
 
     #logo {
@@ -244,6 +228,7 @@
     width: 33%;
     max-width: 180px;
   }
+
 
 
 }
