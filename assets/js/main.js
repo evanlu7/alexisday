@@ -3,19 +3,6 @@ $(document).ready(function () {
  var scroll_pos = 0;
 
 
- 
-  $(document).scroll(function() {
-    scroll_pos = $(this).scrollTop();
-    if (scroll_pos > 50) {
-      $("nav").css('background-color', 'white');
-      $("nav a").css('color', 'black');
-    } else {
-      $("nav").css('background-color', 'transparent');
-      $("nav a").css('color', 'white');
-    }
-  });
-
-
 
 
   $(document).scroll(function() {
@@ -65,6 +52,18 @@ $(document).ready(function () {
     }
 
 });  
+
+
+    $(document).scroll(function() {
+    scroll_pos = $(this).scrollTop();
+    if (scroll_pos > 1200) {
+      $(".brandTag").addClass("animated fadeInUpBig");
+       $(".brandTag").addClass('visibility: visible');
+    } else {
+        $(".brandTag").addClass('visibility: hidden');
+    }
+
+});      
 
 
 

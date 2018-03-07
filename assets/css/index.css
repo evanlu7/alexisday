@@ -15,6 +15,21 @@
  width:100px;
 }
 
+.brandTag {
+  position: relative;
+  visibility: hidden;
+background-color: darkgrey;
+text-align: center;
+  color: black;
+  font-weight: bold;
+  padding: 2px;
+  width: 70px;
+}
+
+.fadeInBigUp {
+
+}
+
 
   .btn {
     background-color: #edc32d;
@@ -91,7 +106,7 @@
   }
   #logo {
     position: relative;
-    bottom: 300px;
+    bottom: 400px;
     max-height: 75%;
     max-width: 75%;
   }
