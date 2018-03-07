@@ -1,6 +1,6 @@
-body, html {
+/*body, html {
   height: 100%;
-}
+}*/
 
 .falling-leaves {
   position: absolute;
@@ -8,10 +8,11 @@ body, html {
   bottom: 0;
   left: 50%;
   width: 100%;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 880px;
+  max-height: 880px;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
+  background-size: cover;
   overflow: hidden;
 }
 
@@ -30,7 +31,7 @@ body, html {
   left: 0;
   width: 20px;
   height: 20px;
-  background: url('../img/leaf.png') no-repeat;
+  background: url(../img/leaf.png) no-repeat;
   background-size: 100%;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;

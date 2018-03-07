@@ -6,14 +6,22 @@
   h1 {
     color: #edc32d;
   }
-  /*various divs*/
-  #two {
-    position: relative;
-  }
+#gold {
+  color: #edc32d;
+}
 
-  #three {
-    background-color: black;
-  }
+.image {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  /*various divs*/
+}
+.space {
+  position: relative;
+  background-color: black;
+  height: 200px;
+}
+
 
   #row1 {
     position: relative;
@@ -22,7 +30,7 @@
 
   #shadow {
     position: relative;
-    bottom: 90px;
+    bottom: 400px;
     left: 75px;
   }
 
@@ -38,11 +46,6 @@
   }
 
 
-  .page {
-    max-width: 100%;
-    max-height: 100%;
-    width: 100%;
-  }
 
 
 
@@ -69,13 +72,13 @@
   }
   #logo {
     position: relative;
-    bottom: 50px;
+    bottom: 300px;
     max-height: 75%;
     max-width: 75%;
   }
   #main-pic {
     position: relative;
-    bottom: 85px;
+    bottom: 400px;
     max-width: 100%;
     max-height: 100%;
     opacity: 2;
@@ -85,19 +88,36 @@
 
   #section2 {
     height: 790px;
+    max-width: 100%;
   }
 
   #section3 {
     position: relative;
-    height: 800px;
+    max-height: 100%;
+    max-width: 100%;
+    height: 400px;
     background-color: black;
   }
 
 
   #section4 {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
     height: 125px;
     padding: 10px;
     background-color: black;
+  }
+
+  #section5 {
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+    height: 500px;
+    background-color: black;
+    padding-left: 200px;
+    padding-right: 200px;
+
   }
 
   .slideOutRight {
@@ -154,6 +174,10 @@
   }
 
   .a1 {
+    visibility: hidden;
+  }
+
+  .a2{
     visibility: hidden;
   }
 

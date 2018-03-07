@@ -20,7 +20,7 @@ $(document).ready(function () {
 
   $(document).scroll(function() {
     scroll_pos = $(this).scrollTop();
-    if (scroll_pos > 90) {
+    if (scroll_pos > 1150) {
       $(".social").addClass("animated bounceIn");
     } else {
       $(".social").addClass("");
@@ -30,10 +30,10 @@ $(document).ready(function () {
 
 
 
-  $(".a1").addClass('visibility: hidden');
+
   $(document).scroll(function() {
     scroll_pos = $(this).scrollTop();
-    if (scroll_pos > 800) {
+    if (scroll_pos > 500) {
       $(".a1").addClass("animated slideInRight");
        $(".a1").addClass('visibility: visible');
     } else {
@@ -43,20 +43,17 @@ $(document).ready(function () {
 });
 
 
+  $(document).scroll(function() {
+    scroll_pos = $(this).scrollTop();
+    if (scroll_pos > 800) {
+      $(".a2").addClass("animated slideInRight");
+       $(".a2").addClass('visibility: visible');
+    } else {
+        $(".a2").addClass('visibility: hidden');
+    }
 
-$(document).scroll(function() {
-  scroll_pos = $(this).scrollTop();
+});  
 
-  if (scroll_pos > 50) {
-    $("button").css('background-color', '');
-    $("button").addClass('animated flip');
-    $("button").addClass('visibility: visible');
 
-  } else {
-    $("button").css('background-color', '');
-    $("button").addClass('');
-  }
-
-});
 
 });
