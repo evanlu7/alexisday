@@ -21,11 +21,16 @@
     <nav class="fixed-top">
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a class="menu-list" href="about.html">About</a>
-      <a class="menu-list" href="#">Services</a>
-      <a class="menu-list" href="#">Clients</a>
-      <a class="menu-list" href="#">Contact</a>
+      <a class="menu-list" href="about.html">About the blogAzine™</a>
+      <a class="menu-list" href="#">Brands We've Featured</a>
+      <a class="menu-list" href="#">Be Our Feature</a>
+      <a class="menu-list" href="#">Benefits</a>
+      <a class="menu-list" href="#">About Our Editor-in-Chief</a>
+      <a class="menu-list" href="#">Press</a>
+      <a class="menu-list" href="#">Get In Touch</a>
     </div>
+
+    <!-- About the blogAzine™, Brand's We've Featured, Be Our Feature, Benefits, About Our Editor-in-Chief, Press, Get in Touch -->
     <span class="openbtn" style="font-size:60px;cursor:pointer" onclick="openNav()">&#9776; </span>
   </nav>
   </div>
@@ -70,7 +75,7 @@
   </section>
 <!-- standing blue book part -->
 <section>
-<div class="container">
+<div class="container" id="section3">
   <div class="row">
     <div class="col">
     <img src="./assets/img/blue-book-ex.png">
@@ -81,7 +86,7 @@
 </div>
 <!-- Our Cover Story -->
 <section>
-<div class="container">
+<div class="container" id="section3">
   <div class="row">
     <div class="col">
       <h1>Our Cover Story</h1>
@@ -93,6 +98,66 @@
 <!-- Brands We've Worked With -->
   <section>
    
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide">
+                <div class="mask rgba-black-light"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Light mask</h3>
+                <p>First text</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
+                <div class="mask rgba-black-strong"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Strong mask</h3>
+                <p>Secondary text</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
+                <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Slight mask</h3>
+                <p>Third text</p>
+            </div>
+        </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+                
+</section>
+
   <section>
     <div class="container" id="section4">
       <div class="image" data-type="background" data-speed="2">
@@ -105,6 +170,7 @@
               <div class="item"><a href=""><i class="fab fa-facebook fa-5x" id="facebook"></i></a></div>
               <div class="item"><a href=""><i class="fab fa-instagram fa-5x" id="instagram"></i></a></div>
               <div class="item"><a href=""><i class="fab fa-twitter fa-5x"  id="twitter"></i> </a></div>
+              <a href="" id="white">Privacy and Terms</a>
             </div>
           </div>
         </div>
