@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: arial;
+}
+
+.alexisinsta {
+    height: 200px;
+    width: 14.285%;
+    float: left;
+}
+
+h1 {
+    color: gold;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    color: white;
+    margin: 3%;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .alexisinsta {
+        height: 150px;
+        width: 25%;
+    }
+}
