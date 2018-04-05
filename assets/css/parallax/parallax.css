@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
 html, body {
   font-family: 'Open Sans', sans-serif;
-  background-color: ;
+  background-color:;
 }
 
 .container {
@@ -26,13 +26,13 @@ html, body {
 
 }
 .container section:nth-child(1) .image {
-  background-image: url("../../img/bkgd-img-6.jpg");
+  background-image: url("");
 }
 .container section:nth-child(2) .image {
-  background-image: url("../../img/bkgd-img-1.jpg");
+  background-image: url("");
 }
 .container section:nth-child(3) .image {
-  background-image: url("../../img/bkgd-img-1.jpg");
+  background-image: url("");
 }
 .container section:nth-child(4) .image {
   background-image: url();
@@ -50,7 +50,7 @@ html, body {
   height: 100%;
   position: absolute;
   z-index: 500;
-  opacity: 0.5;
+  opacity: ;
 }
 .container section .stuff {
   display: flex;

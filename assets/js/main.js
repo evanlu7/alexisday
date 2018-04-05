@@ -1,9 +1,75 @@
-$(document).ready(function () {
+$(document).ready(function() {
   //your code here
- var scroll_pos = 0;
+  var scroll_pos = 0;
+  $(document).scroll(function() {
+    scroll_pos = $(this).scrollTop();
+    if (scroll_pos > 500) {
+      $(".a1").addClass("animated slideInRight");
+      $(".a1").addClass('visibility: visible');
+    } else {
+      $(".a1").addClass('visibility: hidden');
+    }
+
+  });
+
+
+  $(document).scroll(function() {
+    scroll_pos = $(this).scrollTop();
+    if (scroll_pos > 800) {
+      $(".a2").addClass("animated slideInRight");
+      $(".a2").addClass('visibility: visible');
+    } else {
+      $(".a2").addClass('visibility: hidden');
+    }
+
+  });
+
+  $(document).scroll(function() {
+    scroll_pos = $(this).scrollTop();
+    if (scroll_pos > 1200) {
+      $(".cover").addClass("animated slideInRight");
+      $(".cover").addClass('visibility: visible');
+    } else {
+      $(".cover").addClass('visibility: hidden');
+    }
+
+  });
+
+  $(document).scroll(function() {
+    scroll_pos = $(this).scrollTop();
+    if (scroll_pos > 1400) {
+      $(".quote1").addClass("animated rollIn");
+      $(".quote1").addClass('visibility: visible');
+    } else {
+      $(".quote1").addClass('visibility: hidden');
+    }
+
+  });
+
+
+  $(document).scroll(function() {
+    scroll_pos = $(this).scrollTop();
+    if (scroll_pos > 1400) {
+      $(".quote2").addClass("animated rollIn");
+      $(".quote2").addClass('visibility: visible');
+    } else {
+      $(".quote2").addClass('visibility: hidden');
+    }
+
+  });
 
 
 
+  $(document).scroll(function() {
+    scroll_pos = $(this).scrollTop();
+    if (scroll_pos > 1200) {
+      $(".brands").addClass("animated bounceInRight");
+      $(".brands").addClass('visibility: visible');
+    } else {
+      $(".brands").addClass('visibility: hidden');
+    }
+
+  });
 
   $(document).scroll(function() {
     scroll_pos = $(this).scrollTop();
@@ -13,57 +79,39 @@ $(document).ready(function () {
       $(".social").addClass("");
     }
 
-});
-
-
-
+  });
 
   $(document).scroll(function() {
-    scroll_pos = $(this).scrollTop();
-    if (scroll_pos > 500) {
-      $(".a1").addClass("animated slideInRight");
-       $(".a1").addClass('visibility: visible');
-    } else {
-        $(".a1").addClass('visibility: hidden');
-    }
-
-});
-
-
-  $(document).scroll(function() {
-    scroll_pos = $(this).scrollTop();
-    if (scroll_pos > 800) {
-      $(".a2").addClass("animated slideInRight");
-       $(".a2").addClass('visibility: visible');
-    } else {
-        $(".a2").addClass('visibility: hidden');
-    }
-
-});  
-
-
-    $(document).scroll(function() {
-    scroll_pos = $(this).scrollTop();
-    if (scroll_pos > 1200) {
-      $(".brands").addClass("animated bounceInRight");
-       $(".brands").addClass('visibility: visible');
-    } else {
-        $(".brands").addClass('visibility: hidden');
-    }
-
-});  
-
-
-    $(document).scroll(function() {
     scroll_pos = $(this).scrollTop();
     if (scroll_pos > 1200) {
       $(".brandTag").addClass("animated fadeInUpBig");
-       $(".brandTag").addClass('visibility: visible');
+      $(".brandTag").addClass('visibility: visible');
     } else {
-        $(".brandTag").addClass('visibility: hidden');
+      $(".brandTag").addClass('visibility: hidden');
     }
 
-});      
+  });
+  $(document).scroll(function() {
+    scroll_pos = $(this).scrollTop();
+    if (scroll_pos > 2300) {
+      $(".comp").addClass("animated slideInRight");
+      $(".comp").addClass('visibility: visible');
+    } else {
+      $(".comp").addClass('visibility: hidden');
+    };
+
+  });
+
+  $(document).scroll(function() {
+    scroll_pos = $(this).scrollTop();
+    if (scroll_pos > 2300) {
+      $(".coverh1").addClass("animated zoomInRight");
+      $(".coverh1").addClass('visibility: visible');
+    } else {
+      $(".coverh1").addClass('visibility: hidden');
+    };
+
+  });
 
 
 
