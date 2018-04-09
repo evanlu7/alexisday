@@ -11,18 +11,33 @@ $(document).ready(function() {
     }
 
   });
-
-
+  
   $(document).scroll(function() {
     scroll_pos = $(this).scrollTop();
     if (scroll_pos > 800) {
-      $(".a2").addClass("animated slideInRight");
+      $(".a2").addClass("animated rotateIn");
       $(".a2").addClass('visibility: visible');
     } else {
       $(".a2").addClass('visibility: hidden');
     }
 
   });
+
+    $(document).scroll(function() {
+    scroll_pos = $(this).scrollTop();
+    if (scroll_pos > 400) {
+      $(".button").addClass("animated fadeInUpBig");
+      $(".button").addClass('visibility: visible');
+    } else {
+      $(".button").addClass('visibility: hidden');
+    }
+
+  });
+
+
+
+
+
 
   $(document).scroll(function() {
     scroll_pos = $(this).scrollTop();
