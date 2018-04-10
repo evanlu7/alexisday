@@ -1,32 +1,88 @@
 body {
-    background-color: black;
     margin: 0;
-    font-family: arial;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-style: italic !important;
+}
+
+h1 {
+    color: gray !important;
+    margin: 2% !important;
+    font-size: 3em !important;
+    text-align: center !important;
 }
 
 .alexisinsta {
-    height: 200px;
+    height: 27%;
     width: 14.285%;
     float: left;
 }
 
-h1 {
-    color: gold;
+.alexiswp {
+    margin-left: auto; 
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%; 
+    box-shadow: 10px 10px 20px black;
+}
+
+.carousel-inner{
+    min-width:100%;
+    max-height:80%;
+  }
+.alexisbio {
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 2%;
+    display: block;
+    max-width: 100%;
+    max-height: 100%; 
+    
+}
+
+.socialicons {
     text-align: center;
-    padding: 10px;
+}
+
+.fa {
+    margin: 1%;
+    color: goldenrod;
 }
 
 p {
-    color: white;
     margin: 3%;
     text-align: center;
     letter-spacing: 1.5px;
+    color: gray;
+    font-size: 0.8em;
 }
 
+
+.alexiscollage {
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 8%;
+    height: 300px;
+    width: 300px;
+    box-shadow: 10px 10px 80px silver;
+}
+
+img.alexiscollage:hover {
+    animation-name: im;
+    animation-duration: 2s;
+}
+
+
+@keyframes im {
+    0%{transform: rotateY(0deg)}
+    100%{transform: rotateY(360deg)}
+}
 
 @media screen and (max-width: 600px) {
     .alexisinsta {
         height: 150px;
         width: 25%;
     }
+    
 }
+
