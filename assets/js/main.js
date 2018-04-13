@@ -1,6 +1,15 @@
 $(document).ready(function() {
-  //your code here
   var scroll_pos = 0;
+// change background on intro animation
+
+
+// shadow
+
+$(document).ready(function(){
+});
+
+
+
   $(document).scroll(function() {
     scroll_pos = $(this).scrollTop();
     if (scroll_pos > 500) {
@@ -46,6 +55,17 @@ $(document).ready(function() {
       $(".cover").addClass('visibility: visible');
     } else {
       $(".cover").addClass('visibility: hidden');
+    }
+
+  });
+
+    $(document).scroll(function() {
+    scroll_pos = $(this).scrollTop();
+    if (scroll_pos > 1200) {
+      $(".cover2").addClass("animated slideInRight");
+      $(".cover2").addClass('visibility: visible');
+    } else {
+      $(".cover2").addClass('visibility: hidden');
     }
 
   });
