@@ -15,15 +15,14 @@ body {
 
 #carouselimg {
   display: inline-block;
-  width: 200px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
 }
 
 .carousel {
-  width: 830px;
-  height: 120px;
+  width: 1000px;
+  height: 300px;
   overflow: hidden;
-  padding: 8px;
   box-sizing: border-box;
   border: 2px solid #999;
   box-shadow: 0 0 4px #000;
