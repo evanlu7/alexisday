@@ -4,7 +4,10 @@ body {
 
 .openbtn {
     position: relative;
-left: 25px;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    right:30px;
+
 
 }
 .menu-list {
