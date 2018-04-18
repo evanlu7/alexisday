@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: 'Times New Roman', Times, serif !important;
-    font-style: italic !important;
 }
 
 h1 {
@@ -12,105 +11,133 @@ h1 {
     font-weight: bold;
 }
 
+.biopic {
+    display: block;
+}
+
+h3 {
+    margin-top: 190% !important;
+    position: relative;
+    text-align: center;
+    font-size: 3em !important;
+    font-weight: bold;
+    color: gray !important;
+}
+
+h5 {
+    position: relative;
+    text-align: center;
+    font-size: 3em !important;
+    font-weight: bold;
+    color: gray !important;
+}
+
 h2 {
     color: gray !important;
-    margin: 5% !important;
-    font-size: 2.6em !important;
+    margin-top: 10% !important;
+    font-size: 3em !important;
     text-align: center !important;
     font-weight: bold;
+}
+h4 {
+    color: lightskyblue !important;
+    font-size: 2em !important;
+    text-align: center !important;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 8% !important;
+}
+
+.text1 {
+    text-align: left;
+    margin-left: 1%;
+    margin-top: 3%;
+    line-height: 8px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, sans-serif !important;
 }
 
 .alexiscollage2 {
     display: block;
-    margin-top: 30%;
-    margin-left: 100px;
-    max-height: 400px;
-    max-width: 370px;
-    box-shadow: 10px 10px 80px black;
+    margin-top: 35%;
+    margin-left: 20%;
+    max-height: 550px;
+    max-width: 420px;
+    box-shadow: -5px 5px 8px #d9d9d9, -5px -5px 8px #d9d9d9,5px -5px 8px #d9d9d9, 5px 5px 8px #d9d9d9;
     position: relative;
     z-index: 2;
-}
-
-.alexiscollage4 {
-    display: block;
-    margin-top: 35%;
-    margin-left: 40px;
-    margin-right: 50px;
-    max-height: 400px;
-    max-width: 370px;
-    box-shadow: 10px 10px 60px black;
-    position: relative;
-    z-index: 4;
-}
-
-.yellow_strip {
-    position: absolute;
-    background-color: gold;
-    margin-left: 10%;
-    margin-top: 5%;
-    opacity: 0.7;
-    width: 35px;
-    height: 1100px;
-}
-.yellow_strip2 {
-    position: absolute;
-    background-color: gold;
-    margin-left: 10%;
-    margin-top: 2%;
-    opacity: 0.7;
-    width: 35px;
-    height: 1100px;
-}
-.yellow_strip3 {
-    position: absolute;
-    background-color: gold;
-    margin-left: 25%;
-    margin-top: 8%;
-    opacity: 0.7;
-    width: 35px;
-    height: 1100px;
-}
-
-.alexiscollage6 {
-    display: block;
-    margin-top: 80%;
-    margin-left: -20px;
-    max-height: 450px;
-    max-width: 450px;
-    box-shadow: 10px 10px 60px black;
-    position: relative;
-    z-index: 5;
-}
-.alexiscollage {
-    display: block;
-    margin-top: 35%;
-    position: relative;
-    margin-left: 50px;
-    max-height: 400px;
-    max-width: 370px;
-    box-shadow: 10px 10px 80px black;
-    z-index: 1;
-}
-.alexiscollage3 {
-    display: block;
-    margin-top: 40%;
-    margin-left: 80px;
-    max-height: 450px;
-    max-width: 400px;
-    box-shadow: 10px 10px 60px black;
-    position: relative;
-    z-index: 4;
 }
 .alexiscollage5 {
     display: block;
     position: relative;
-    margin-top: 35%;
-    margin-left: 50px;
-    max-height: 350px;
-    max-width: 350px;
-    box-shadow: 10px 10px 60px black;
+    margin-top: 50%;
+    margin-left: -10%;
+    max-height: 700px;
+    max-width: 600px;
+    box-shadow: -5px 5px 8px #d9d9d9, -5px -5px 8px #d9d9d9,5px -5px 8px #d9d9d9, 5px 5px 8px #d9d9d9;
     z-index: 3;
 }
+.alexiscollage4 {
+    display: block;
+    margin-top: 40%;
+    margin-left: 15%;
+    max-height: 650px;
+    max-width: 650px;
+    box-shadow: -5px 5px 8px #d9d9d9, -5px -5px 8px #d9d9d9;
+    position: relative;
+    z-index: 4;
+}
+.alexiscollage6 {
+    display: block;
+    margin-top: 48%;
+    margin-left: -20px;
+    max-height: 1200px;
+    max-width: 1200px;
+    box-shadow: 5px 5px 8px #d9d9d9, 5px -5px 8px #d9d9d9;
+    position: relative;
+    z-index: 5;
+}
+.yellow_strip {
+    position: absolute;
+    background-color: gold;
+    margin-left: 25%;
+    margin-top: 5%;
+    opacity: 0.7;
+    width: 35px;
+    height: 2350px;
+}
+.yellow_strip2 {
+    position: absolute;
+    background-color: gold;
+    margin-left: 25%;
+    margin-top: 2%;
+    opacity: 0.7;
+    width: 35px;
+    height: 2350px;
+}
+
+
+.alexiscollage {
+    display: block;
+    margin-top: 35%;
+    position: relative;
+    margin-left: 250px;
+    max-height: 600px;
+    max-width: 450px;
+    box-shadow: -5px 5px 8px #d9d9d9, -5px -5px 8px #d9d9d9;
+    z-index: 4;
+}
+.alexiscollage3 {
+    display: block;
+    margin-top: 45%;
+    margin-left: -20px;
+    max-height: 700px;
+    max-width: 600px;
+    box-shadow: 5px 5px 8px #d9d9d9, 5px -5px 8px #d9d9d9;
+    position: relative;
+    z-index: 1;
+}
+
 .alexisinsta {
     height: 27%;
     width: 14.285%;
@@ -123,19 +150,21 @@ h2 {
     display: block;
     max-width: 100%;
     max-height: 100%; 
-    box-shadow: 10px 10px 20px gray;
+    box-shadow: 10px 10px 50px gray;
 }
 
 .wcp {
-    background-image: url('./../img/Logo_GB.png');
+    background-image: url('./../img/TCL_logo.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 0px 80px;
     background-size: cover;
     background-attachment: fixed;
-    }
+}
 
 .carousel-inner{
-    max-width:100%;
+    margin-left: auto; 
+    margin-right: auto;
+    max-width:80%;
     height:80%;
 }
 
@@ -147,29 +176,59 @@ h2 {
 .alexisbio {
     margin-left: auto; 
     margin-right: auto;
-    margin-top: 300px;
+    margin-top: 2%;
     max-width: 100%;
     max-height: 100%; 
 }
 
+.bio {
+    display: block;
+}
+
+.car {
+    margin: 2%;
+}
+
 .socialicons {
     text-align: center;
+
+}
+
+.footericons {
+    margin-top: 15%;    
+    background-color: black;
 }
 
 .fa {
-    margin: 1%;
+    margin: 2%;
     color: goldenrod;
 }
 
 p {
-    margin: 3%;
-    text-align: center;
-    letter-spacing: 1.5px;
+    text-align: right;
+    padding: 1%;
     color: gray;
     font-size: 0.8em;
+    font-style: italic;
+}
+.tp {
+    display: block;
+}
+.sociallink {
+    color: goldenrod;
+    font-size: 0.4em;
+    padding: 10px;
 }
 
-
+a.si {
+    color: goldenrod !important;
+    text-decoration: none;
+  }
+  a.si:hover,
+  a.si:focus {
+    color: goldenrod !important;
+    text-decoration: none;
+  }
 
 @media screen and (max-width: 600px) {
     .alexisinsta {

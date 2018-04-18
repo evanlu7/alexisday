@@ -7,44 +7,72 @@
         <link rel="stylesheet" href="./assets/css/animate.min.css" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="assets/css/slideNav.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <script src="./assets/js/wow.min.js"></script>
             <script>
               new WOW().init();
             </script>
+
+<div class="container">
+        <nav class="fixed-top">
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="menu-list" href="about.html">About the blogAzine™</a>
+            <a class="menu-list" href="#">Be Our Feature</a>
+            <a class="menu-list" href="#">Brands We've Featured</a>
+            <a class="menu-list" href="#">Be Our Feature</a>
+            <a class="menu-list" href="#">Benefits</a>
+            <a class="menu-list" href="#">About Our Editor-in-Chief</a>
+            <a class="menu-list" href="#">Press</a>
+            <a class="menu-list" href="#">Get In Touch</a>
+            <a class="menu-list" href="#">Subscribe</a>
+          </div>
+          <!-- About the blogAzine™, Brand's We've Featured, Be Our Feature, Benefits, About Our Editor-in-Chief, Press, Get in Touch -->
+          <span class="openbtn" style="font-size:60px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        </nav>
+      </div>
+
         <div>
-            <h1 class="wow rubberBand">Editor in Chief</h1>
+            <h1 class="wow slideInRight" data-wow-duration="3s">Message from our Editor in Chief</h1>
         </div>
         <div class="wcp wow fadeIn" data-wow-duration="7s">
             <img src="./assets/img/Alexis_pink_jacket.jpg" alt="Alexis Welcome picture" class="alexiswp wow bounceInLeft" data-wow-duration="5s">
         </div>
-        
-        <h2>Moments</h2>
+        <h2>Paparazzi Moments</h2>
+        <h4>When you're on the scene and the paps spot you...</h4>
         <div>
             <div class="moments">
                 <div class="yellow_strip"></div>
-                <img src="./assets/img/a6.jpg" alt="Alexis Image 1" class="alexiscollage" data-wow-duration="4s">
-                <img src="./assets/img/a2.jpg" alt="Alexis Image 1" class="alexiscollage2" data-wow-duration="4s">
+                <img src="./assets/img/ap1.gif" alt="Alexis Image 1" class="alexiscollage wow rotateIn" data-wow-duration="2s" data-wow-delay="1s">
+                <img src="./assets/img/ap3.gif" alt="Alexis Image 2" class="alexiscollage2 wow rotateInDownLeft" data-wow-duration="2s" data-wow-delay="1s">
+                <img src="./assets/img/ap5.gif" alt="Alexis Image 3" class="alexiscollage4 wow slideInRight" data-wow-duration="2s" data-wow-delay="1s">
             </div>
             <div class="moments">
                 <div class="yellow_strip2"></div>
-                <img src="./assets/img/a1.jpg" alt="Alexis Image 2" class="alexiscollage3" data-wow-duration="4s">
-                <img src="./assets/img/a3.jpg" alt="Alexis Image 2" class="alexiscollage4" data-wow-duration="4s">
+                <img src="./assets/img/ap2.gif" alt="Alexis Image 4" class="alexiscollage3 wow rotateIn" data-wow-duration="2s" data-wow-delay="1s">
+                <div class="wow zoomIn" data-wow-delay="1s" >
+                    <p class="text1"><span style="font-weight: bold">Fashion Designer:</span> Lotuz</p>
+                    <p class="text1"><span style="font-weight: bold">Jewellary:</span> Rozaliya</p>
+                    <p class="text1"><span style="font-weight: bold">Photography:</span> Denzel Perry</p>
+                    <p class="text1"><span style="font-weight: bold">Photoshoot Art Direction:</span> Jessica De Soto</p>
+                    <p class="text1"><span style="font-weight: bold">Bodyguard:</span> Jerry Lamont</p>
+                </div>
+                <img src="./assets/img/ap4.gif" alt="Alexis Image 5" class="alexiscollage5 wow rotateInDownRight" data-wow-duration="2s" data-wow-delay="1s">
+                <img src="./assets/img/ap6.gif" alt="Alexis Image 6" class="alexiscollage6 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
             </div>
-            <div class="moments">
-                <div class="yellow_strip3"></div>
-                <img src="./assets/img/a4.jpg" alt="Alexis Image 3" class="alexiscollage5" data-wow-duration="4s">
-                <img src="./assets/img/a5.jpg" alt="Alexis Image 2" class="alexiscollage6" data-wow-duration="4s">
-            </div>
+           
         </div>
 
-        <div class="bp">
+        <div class="biopic">
+            <h3 class="wow zoomIn" data-wow-duration="2s">About Blogger, Luxury Influencer, Editor-in-chief and Publisher</h3>
+            <h5 class="wow zoomInUp" data-wow-duration="2s" data-wow-delay="1s">Alexis Day</h5>
             <img src="./assets/img/AD_TCL_Bio_Spreads.jpg" alt="Alexis Welcome picture" class="alexisbio wow rotateInUpRight" data-wow-duration="5s">
         </div>
 
         <div>
-            <h1>Carousel </h1>
+            <h1 class="car">Alexis's Moments</h1>
         </div>
 
         <div class="wow fadeInLeft" data-wow-duration="5s">
@@ -77,9 +105,9 @@
         </div>
 
 
-        <h1>Alexis Instagram</h1>
+        <h1>Follow Alexis on Instagram</h1>
 
-        <div class="wow flipInX" data-wow-duration="5s" data-wow-delay="2s">
+        <div class="wow flipInX" data-wow-duration="3s" data-wow-delay="1s">
             <a href="https://www.instagram.com/p/BhX2-JeDk4Y/?taken-by=luxealexisday">
                 <img src="./assets/img/insta1.PNG" alt="Alexis Instagram pictures" class="alexisinsta">
             </a>
@@ -113,19 +141,16 @@
         <footer>
                 <div class="footericons">
                     <div class="socialicons">
-                        <a href="https://www.instagram.com/alexisdayagency/?hl=en" target="_blank" class="fa fa-instagram fa-2x"></a>
-                        <a href="https://www.facebook.com/alexisdayagency/" target="_blank" class="fa fa-facebook fa-2x"></a>
-                        <a href="https://twitter.com/alexisdayagency?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="fa fa-twitter fa-2x"></a>
-                        <a href="https://www.youtube.com/channel/UClMnyfVetT9v3HnaDNPz7Bg" target="_blank" class="fa fa-youtube fa-2x"></a>
+                        <a href="https://www.instagram.com/thecontourofluxury/" target="_blank" class="si fa fa-instagram fa-3x"><p class="sociallink">#thecontourofluxury</p></a>
+                        <a href="https://www.facebook.com/thecontourofluxury/?ref=br_rs" target="_blank" class="si fa fa-facebook fa-3x"><p class="sociallink">facebook.com/thecontourofluxury</p></a>
+                        <a href="https://twitter.com/contourofluxury?lang=en" target="_blank" class="si fa fa-twitter fa-3x"><p class="sociallink">@thecontourofluxury</p></a>
+                        <a href="https://www.youtube.com/channel/UClMnyfVetT9v3HnaDNPz7Bg" target="_blank" class="si fa fa-youtube fa-3x"><p class="sociallink">@thecontourofluxury</p></a>
+                        <p>
+                            Copyright © 2018 The Contour of Luxury. ALL RIGHTS RESERVED
+                            <span class="tp">Terms of use / Privacy policy</span>
+                        </p>
                     </div>
-        
-                    <p>
-                        Copyright © 2018 The Contour of Luxury. ALL RIGHTS RESERVED
-                    </p>
-        
-                    <p>
-                        Terms of use / Privacy policy
-                    </p>
+                    
                 </div>
         
             </footer>
@@ -133,5 +158,7 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </body>
+<script src="assets/js/slideNav.js"></script>
+    
+</body>
 </html>
