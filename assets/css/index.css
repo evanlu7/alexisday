@@ -1,619 +1,746 @@
-  @media only screen and (max-width: 3000px) {
-  /*CSS for desktop*/
-  html,
-  body {
-    overflow-x: hidden;
-  }
-  p {
-    color: white;
-  }
-
-  #black {
-    color: black;
-  }
-
-  #white {
-    color: white;
-  }
-
-  #grey {
-    color: #6c6d70;
-  }
-
-  #gold {
-    color: #edc32d;
-    font-family: Snell Roundhand, cursive;
-    font-size: 16pt;
-  }
-
-#greySlide {
-position: relative;
-height: 760px;
-width: 1000px;
-}
-
-#greyBoxAni{
-animation-delay: 2s;
-animation-duration: 1s;
-}
-
-
-#greyBox{
-position: relative;
-bottom: 200px;
-right:175px;
-width: 300px;
-height: 100px;
-
-}
-  #quotes {
-    font-size: 14pt;
-  }
-
-  .rollIn {
-    animation-delay: 0.5s;
-  }
-  .cover {
-    position: relative;
-    visibility: hidden;
-    max-height: 100% max-width: 100%;
-    height: 1000px;
-    width: 800px;
-    right: 250px;
-  }
-
-  .cover2 {
-    position: relative;
-    visibility: hidden;
-    z-index: 100;
-    max-height: 100% max-width: 100%;
-    height: 1000px;
-    width: 800px;
-    bottom: 1105px;
-    left: 350px;
-    animation-delay: 1s;
-  }
-
-  #q1 {
-    position: relative;
-    right: 400px;
-    padding: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
-    width: 400px;
-    height: 250px;
-    background-color: #2b2b2a;
-  }
-
-  #q2 {
-    position: relative;
-    bottom: 200px;
-    left: 150px;
-    padding: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
-    width: 400px;
-    height: 300px;
-    background-color: #2b2b2a;
-  }
-
-  #q3 {
-    position: relative;
-    bottom: 200px;
-    right: 300px;
-    padding: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
-    width: 400px;
-    height: 200px;
-    background-color: #2b2b2a;
-  }
-
-  #q4 {
-    position: relative;
-    bottom: 350px;
-    left: 400px;
-    padding: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
-    width: 400px;
-    height: 150px;
-    background-color: #2b2b2a;
-  }
-
-  .comp {
-    visibility: hidden;
-  }
-
-  .coverh1 {
-    position: relative;
-    visibility: hidden;
-  }
-
-  .quote1 {
-    position: relative;
-    bottom: 400px;
-    visibility: hidden;
-  }
-
-  .quote2 {
-    position: relative;
-    left: 600px;
-    bottom: 800px;
-    visibility: hidden;
-  }
-
-  h1 {
-    font-weight: bold;
-    font-family: Snell Roundhand, cursive;
-    color: #edc32d;
-    font-size: 70pt;
-  }
-  .brands {
-    visibility: hidden;
-    position: relative;
-    max-height: 100%;
-    max-width: 100% height: 100px;
-    width: 100px;
-  }
-
-  .brandTag {
-    position: relative;
-    visibility: hidden;
-    background-color: darkgrey;
-    text-align: center;
-    color: black;
-    font-weight: bold;
-    padding: 2px;
-    width: 70px;
-  }
-
-  .fadeInUpBig {
-    animation-delay: 0.8s;
-  }
-
-  .btn {
-    background-color: #edc32d;
-  }
-
-  .button {
-    visibility: hidden;
-  }
-
-  #gold {
-    color: #edc32d;
-  }
-
-  .image {
-    position: relative;
-    max-width: 100%;
-    max-height: 100%;
-
-    /*various divs*/
-  }
-
-  #white {
-    background-color: inherit;
-  }
-  .space {
-    position: relative;
-    background-color: black;
-    height: 200px;
-  }
-  .space2 {
-    position: relative;
-    background-color: white;
-    height: 200px;
-  }
-
-  .space3 {
-    position: relative;
-    background-color: #6c6d70;
-    height: 125px;
-  }
-
-  #row1 {
-    position: relative;
-    bottom: 312px;
-  }
-
-#shadowAniFade {
-  animation-delay: 1.8s;
-  animation-duration: 1s;
-  z-index: 1;
-}
-
-
-#shadowAni {
-animation-delay: 1.5s;
-z-index: 1;
-}
-  
-
-  #shadow {
-    position: relative;
-    z-index: 1;
-    bottom: 1050px;
-} 
-
-#wrap {
-  position: relative;
-}
-
-#wrap2 {
-  position: absolute;
-  z-index: -1;
-}
-
-#wrap3 {
-  position: relative;
-}
-
-#wrap4{
-  position: absolute;
-  z-index: -2;
-}
-  #main-pic {
-    position: relative;
-    bottom: 290px;
-    animation-delay: 4s;
-    height: 100%;
-    width: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    z-index: 2;
-  }
-
-
-  #logo {
-    position: relative;
-    top:100px;
-    left: 300px;
-    max-height: 40%;
-    max-width: 40%;
-  }
-    #logo2 {
-    position: relative;
-    bottom: 325px;
-    right: 100px;
-    max-height: 20%;
-    max-width: 20%;
-  }
-#lightGreyAniSlide {
-  animation-delay: 0s;
-  z-index:-2;
-}
-
-#lightGreyAni2 {
-  animation-delay: 1s;
-  animation-duration: 1s;
-}
-
-#mainPicAni {
-  animation-delay: 1.4s;
-  animation-duration: 0.6s;
-  z-index: 2;
-}
-
-
-  #lightGreyBkgd {
-    position: relative;
-    left: 200px;
-    height: 800px;
-    width: 700px;
-    bottom: 540px;
-  }
-
-
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-  a:hover,
-  a:focus {
-    color: inherit;
-    text-decoration: underline;
-  }
-  #youtube {
-    position: relative;
-    right: 100px;
-  }
-
-  .youtubeText {
-    position: relative;
-    right: 150px;
-  }
-
-  #facebook {
-    position: relative;
-  }
-
-  .facebookText {
-    position: relative;
-    right: 100px;
-  }
-  #instagram {
-    position: relative;
-    left: 100px;
-  }
-
-  .instagramText {
-    position: relative;
-    left: 40px;
-  }
-  #twitter {
-    position: relative;
-    left: 200px;
-  }
-
-  .twitterText {
-    position: relative;
-    left: 140px;
-  }
-
-
-
-
-
-
-
-
-
-  .social {
-
-    max-width: 100%;
-    max-height: 100%;
-  }
-
-
-
-  .fa-3x {
-    color: #edc32d;
-  }
-
-  .navbar {
-    max-height: 120px;
-    background-color: transparent;
-  }
-
-
-
-  #section2 {
-    height: 760px;
-    max-width: 100%;
-  }
-
-  #section3 {
-    position: relative;
-    max-height: 100%;
-    max-width: 100%;
-    height: 600px;
-    background-color: #6c6d70;
-    padding: 50px;
-  }
-
-
-  #section4 {
-    position: relative;
-    border-style: solid;
-    border-width: 2px;
-    border-right: none;
-    border-left: none;
-    border-color: #edc32d;
-    padding: 30px;
-    max-width: 100%;
-    max-height: 100%;
-    height: 200px;
-    background-color: #6c6d70;
-  }
-
-  #section5 {
-    position: relative;
-    max-height: 100%;
-    max-width: 100%;
-    height: 1200px;
-    background-color: white;
-    padding-left: 200px;
-    padding-right: 200px;
-  }
-
-  #section6 {
-    position: relative;
-    height: 500px;
-    max-height: 100%;
-    max-width: 100%;
-    background-color: black;
-  }
-
-  #section7 {
-    position: relative;
-    height: 900px;
-    background-color: #6c6d70;
-    max-height: 100%;
-    max-width: 100%;
-    padding: 50px;
-  }
-
-  #section8 {
-    position: relative;
-    max-width: 100%;
-    max-height: 100%;
-    height: 500px;
-    background-color: black;
-  }
-
-#bkgd1 {
-  position: absolute;
-  z-index: -1
-}
-
-
-  #section9 {
-    background-image: url();
-    position: relative;
-    max-height: 100%;
-    max-width: 100%;
-    height: 800px;
-    background-color: black;
-    padding: 50px;
-    border-style: solid;
-    border-width: 2px;
-    border-right: none;
-    border-left: none;
-    border-color: #edc32d;
-  }
-
-  #section10 {
-    position: relative;
-    height: 600px;
-  }
-
-  .slideOutRight {
-    height: 0px;
-    animation-duration: 2s;
-  }
-
-
-  .slideInLeft {
-    height: 0px;
-    animation-duration: 2s;
-    z-index: -100;
-  }
-
-.fadeIn Box {
-
-}
-
-  .fadeIn {
-    animation-delay: 0.5s;
-    animation-duration: 0.1s;
-  }
-
-  .fadeOut{
-    animation-delay: 0.1s;
-   
-  }
-
-  .fadeInDown {
-    animation-delay: 1s;
-    animation-duration: 1s;
-  }
-
-  .fadeInUp {
-    animation-delay: 6s;
-    margin-left: 40px;
-  }
-
-  #alignRight {
-    align-items: flex-end;
-  }
-
-  .navbar-brand {
-    padding: 0 15px;
-    height: 80px;
-    line-height: 80px;
-  }
-
-  .navbar-brand a:hover {}
-
-  .navbar-toggle {
-    /* (80px - button height 34px) / 2 = 23px */
-    margin-top: 23px;
-    padding: 9px 10px !important;
-  }
-  /*  @media (min-width: 768px) {*/
-  .navbar-nav>li>a {
-    /* (80px - line-height of 27px) / 2 = 26.5px */
-    padding-top: 0px;
-    padding-bottom: 0px;
-    line-height: 0px;
-  }
-
-  .a1 {
-    visibility: hidden;
-  }
-
-  .a2 {
-    visibility: hidden;
-  }
-
-
-
-  img {
-    height: auto;
-    /* Make sure images are scaled correctly. */
-    width: 100%;
-    /* Adhere to container width. */
-    display: block;
-  }
-  .hm-blue-strong {
-    position: relative;
-    width: 250px;
-    height: 250px;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    margin: 0px;
-    vertical-align: top;
-    background-size: 100% 100%
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  /*CSS for smaller screens*/
-}
-
-@media only screen and (max-width: 480px) {
-  /*CSS for mobile*/
-  #main-pic {
-    position: relative;
-    top: 100px;
-    height: 500px;
-    width: 500px;
-    z-index: -5;
-  }
-
-  #logo {
-    position: relative;
-    top: 300px;
-    max-height: 100%;
-    max-width: 100%;
-  }
-  #navItem {
-    font-size: 25px;
-  }
-
-  .p-2 {
-    position: relative;
-    right: 30px;
-  }
-
-  .navbar-nav>li>a {
-    /* (80px - line-height of 27px) / 2 = 26.5px */
-    padding-top: 0px;
-    padding-bottom: 0px;
-    line-height: 0px;
-  }
-
-  .navbar-brand {
-    padding: 0 15px;
-    height: 80px;
-    line-height: 80px;
-  }
-
-  .navbar-brand a:hover {}
-
-  .navbar-toggle {
-    /* (80px - button height 34px) / 2 = 23px */
-    margin-top: 23px;
-    padding: 9px 10px !important;
-  }
-
-  .fa-5x {
-    max-height: 50px;
-  }
-  /*hover stuff*/
+        @media only screen and (max-width: 3000px) {
+        /*CSS for desktop*/
+        html,
+        body {
+          overflow-x: hidden;
+        }
+        p {
+          color: white;
+        }
+
+        #black {
+          color: black;
+        }
+
+        #white {
+          color: white;
+        }
+
+        #grey {
+          color: #6c6d70;
+        }
+
+        #gold {
+          color: #edc32d;
+          font-family: Snell Roundhand, cursive;
+          font-size: 16pt;
+        }
+        #section2 {
+          height: 760px;
+          max-width: 100%;
+        }
+
+        #section3 {
+          position: relative;
+          max-height: 100%;
+          max-width: 100%;
+          height: 600px;
+          background-color: #6c6d70;
+          padding: 50px;
+        }
+
+
+        #section4 {
+          position: relative;
+          border-style: solid;
+          border-width: 2px;
+          border-right: none;
+          border-left: none;
+          border-color: #edc32d;
+          padding: 30px;
+          max-width: 100%;
+          max-height: 100%;
+          height: 200px;
+          background-color: #6c6d70;
+        }
+
+        #section5 {
+          position: relative;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          padding-left: 200px;
+          padding-right: 200px;
+          max-height: 100%;
+          max-width: 100%;
+          height: 1500px;
+          background-color: white;
+        }
+
+        #section6 {
+          position: relative;
+          height: 500px;
+          max-height: 100%;
+          max-width: 100%;
+          background-color: black;
+        }
+
+        #section7 {
+          position: relative;
+          height: 900px;
+          background-color: #6c6d70;
+          max-height: 100%;
+          max-width: 100%;
+          padding: 50px;
+        }
+
+        #section8 {
+          position: relative;
+          max-width: 100%;
+          max-height: 100%;
+          height: 500px;
+          background-color: black;
+        }
+
+        #bkgd1 {
+          position: absolute;
+          z-index: -1
+        }
+
+        #section9 {
+          background-image: url();
+          position: relative;
+          max-height: 100%;
+          max-width: 100%;
+          height: 700px;
+          background-color: black;
+          padding: 50px;
+          border-style: solid;
+          border-width: 2px;
+          border-right: none;
+          border-left: none;
+          border-color: #edc32d;
+        }
+
+        #section10 {
+          position: relative;
+          height: 800px;
+          /*  background-image: url("../img/batch2/bkgd1.jpg")*/
+        }
+
+        #section11 {
+          position: relative;
+          height: 1000px;
+          border-style: groove;
+          border-color: #edc32d;
+          border-width: 5px;
+        }
+
+        #section12 {
+          height: 750px;
+        }
+
+        #bkgd1 {
+          position: absolute;
+          z-index: -1;
+        }
+        .blackHeading {
+          position: relative;
+          bottom: 100px;
+          text-shadow: 2px 2px 4px gold;
+          padding: 20px;
+          background-color: white;
+          box-shadow: 10px 10px;
+          color: black;
+        }
+
+        #greySlide {
+          position: relative;
+          height: 760px;
+          width: 1000px;
+        }
+
+        #greyBoxAni {
+          animation-delay: 2s;
+          animation-duration: 1s;
+        }
+
+
+        #greyBox {
+          position: relative;
+          bottom: 200px;
+          right: 175px;
+          width: 300px;
+          height: 100px;
+        }
+
+        #aboutCol {
+          position: relative;
+          width: 700px;
+        }
+        #quotes {
+          font-size: 14pt;
+        }
+
+        .rollIn {
+          animation-delay: 0.5s;
+        }
+        .cover {
+          position: relative;
+          visibility: hidden;
+          bottom: 100px;
+          height: 1000px;
+          width: 800px;
+          right: 250px;
+        }
+
+        .cover2 {
+          position: relative;
+          visibility: hidden;
+          z-index: 100;
+          max-height: 100% max-width: 100%;
+          height: 1000px;
+          width: 800px;
+          bottom: 1200px;
+          left: 350px;
+          animation-delay: 1s;
+        }
+
+        #q1 {
+          position: relative;
+          top: 30px;
+          right: 400px;
+          padding: 10px;
+          border-style: solid;
+          border-width: 1px;
+          border-color: white;
+          width: 400px;
+          height: 250px;
+          background-color: #2b2b2a;
+        }
+
+        #q2 {
+          position: relative;
+          bottom: 200px;
+          left: 150px;
+          padding: 10px;
+          border-style: solid;
+          border-width: 1px;
+          border-color: white;
+          width: 400px;
+          height: 300px;
+          background-color: #2b2b2a;
+        }
+
+        #q3 {
+          position: relative;
+          bottom: 200px;
+          right: 300px;
+          padding: 10px;
+          border-style: solid;
+          border-width: 1px;
+          border-color: white;
+          width: 400px;
+          height: 200px;
+          background-color: #2b2b2a;
+        }
+
+        #q4 {
+          position: relative;
+          bottom: 350px;
+          left: 400px;
+          padding: 10px;
+          border-style: solid;
+          border-width: 1px;
+          border-color: white;
+          width: 400px;
+          height: 150px;
+          background-color: #2b2b2a;
+        }
+
+        .comp {
+          visibility: hidden;
+          width: 120%;
+          height: 120%;
+        }
+        #headlineText {
+          position: absolute;
+          font-size: 12pt;
+          color: white;
+          font-family: URW Chancery L, cursive;
+         bottom: 400px;
+         left:  140px;
+          z-index: 1;
+        }
+
+        .coverh1 {
+          position: relative;
+          bottom: 130px;
+          z-index: 1;
+          width: 700px;
+          color: black;
+          visibility: hidden;
+          text-shadow: 2px 2px 4px gold;
+          padding: 20px;
+          background-color: white;
+          box-shadow: 10px 10px;
+        }
+
+
+        #depth3 {
+          position: relative;
+          text-shadow: 2px 2px 4px gold;
+          padding: 10px;
+          top: -60px;
+          color: black;
+          width: 500px;
+          border-style: groove;
+          border-color: #edc32d;
+          border-width: 2px;
+          text-align: center;
+          vertical-align: middle;
+          line-height: 90px;
+        }
+        #depth1 {
+          position: relative;
+          top: 1050px;
+          right: 50px;
+          width: 500px;
+          border-style: groove;
+          border-color: #edc32d;
+          border-width: 2px;
+          text-align: center;
+          vertical-align: middle;
+          line-height: 90px;
+        }
+
+        #depth2 {
+          position: relative;
+          bottom: 61px;
+          left: 575px;
+          width: 500px;
+          border-style: groove;
+          border-color: #edc32d;
+          border-width: 2px;
+          text-align: center;
+          vertical-align: middle;
+          line-height: 90px;
+        }
+
+    #quoteAni1{
+      animation-duration: 2s
+    }
+
+    #quoteAni2 {
+      animation-duration: 2s;
+    }
+        .quote1 {
+          position: relative;
+          font-family: Snell Roundhand, cursive;
+          font-weight: bold;
+          color: black;
+          visibility: hidden;
+          font-size: 32pt;
+          width: 600px;
+          right: 50px;
+        }
+
+        .quote2 {
+          position: relative;
+        
+          right: 50px;
+          width: 500px;
+          color: black;
+          visibility: hidden;
+          font-family: Snell Roundhand, cursive;
+          font-weight: bold;
+          color: black;
+          visibility: hidden;
+          font-size: 32pt;
+          width: 600px;
+        }
+
+        #screenshot {
+          position: relative;
+          bottom: 260px;
+        }
+        .clientHeading {
+          position: relative;
+          top: 30px;
+          color: black;
+        }
+
+        .goldHeading {
+          text-shadow: 2px 2px 4px #000000;
+        }
+        h1 {
+          font-weight: bold;
+          font-family: Snell Roundhand, cursive;
+          color: #edc32d;
+          font-size: 70pt;
+        }
+        .brands {
+          visibility: hidden;
+          position: relative;
+          max-height: 100%;
+          max-width: 100% height: 100px;
+          width: 100px;
+        }
+
+        .brandTag {
+          position: relative;
+          visibility: hidden;
+          background-color: darkgrey;
+          text-align: center;
+          color: black;
+          font-weight: bold;
+          padding: 2px;
+          width: 70px;
+        }
+
+        .fadeInUpBig {
+          animation-delay: 0.8s;
+        }
+
+        .btn {
+          background-color: #edc32d;
+        }
+
+        .button {
+          visibility: hidden;
+        }
+
+        #gold {
+          color: #edc32d;
+        }
+
+        .image {
+          position: relative;
+          max-width: 100%;
+          max-height: 100%;
+
+          /*various divs*/
+        }
+
+        #white {
+          background-color: inherit;
+        }
+        .space {
+          position: relative;
+          background-color: black;
+          height: 200px;
+        }
+        .space2 {
+          position: relative;
+          background-color: white;
+          height: 200px;
+        }
+
+        .space3 {
+          position: relative;
+          background-color: #6c6d70;
+          height: 75px;
+        }
+
+        #row1 {
+          position: relative;
+          bottom: 312px;
+        }
+
+        #shadowAniFade {
+          animation-delay: 1.8s;
+          animation-duration: 1s;
+          z-index: 1;
+        }
+
+
+        #shadowAni {
+          animation-delay: 1.5s;
+          z-index: 1;
+        }
+
+
+        #shadow {
+          position: relative;
+          z-index: 1;
+          bottom: 1050px;
+        }
+
+        #wrap {
+          position: relative;
+        }
+
+        #wrap2 {
+          position: absolute;
+          z-index: -1;
+        }
+
+        #wrap3 {
+          position: relative;
+        }
+
+        #wrap4 {
+          position: absolute;
+          z-index: -2;
+        }
+        #main-pic {
+          position: relative;
+          bottom: 290px;
+          animation-delay: 4s;
+          height: 100%;
+          width: 100%;
+          max-width: 100%;
+          max-height: 100%;
+          z-index: 2;
+        }
+
+
+        #logo {
+          position: relative;
+          top: 100px;
+          left: 300px;
+          max-height: 40%;
+          max-width: 40%;
+        }
+        #logo2 {
+          position: relative;
+          bottom: 325px;
+          right: 100px;
+          max-height: 20%;
+          max-width: 20%;
+        }
+        #lightGreyAniSlide {
+          animation-delay: 0s;
+          z-index: -2;
+        }
+
+        #lightGreyAni2 {
+          animation-delay: 1s;
+          animation-duration: 1s;
+        }
+
+        #mainPicAni {
+          animation-delay: 1.4s;
+          animation-duration: 0.6s;
+          z-index: 2;
+        }
+
+
+        #lightGreyBkgd {
+          position: relative;
+          left: 200px;
+          height: 800px;
+          width: 700px;
+          bottom: 540px;
+        }
+
+
+        a {
+          color: inherit;
+          text-decoration: none;
+        }
+        a:hover,
+        a:focus {
+          color: inherit;
+          text-decoration: underline;
+        }
+        #youtube {
+          position: relative;
+          right: 100px;
+        }
+
+        .youtubeText {
+          position: relative;
+          right: 150px;
+        }
+
+        #facebook {
+          position: relative;
+        }
+
+        .facebookText {
+          position: relative;
+          right: 100px;
+        }
+        #instagram {
+          position: relative;
+          left: 100px;
+        }
+
+        .instagramText {
+          position: relative;
+          left: 40px;
+        }
+        #twitter {
+          position: relative;
+          left: 200px;
+        }
+
+        .twitterText {
+          position: relative;
+          left: 140px;
+        }
+
+
+
+
+
+
+
+
+
+        .social {
+
+          max-width: 100%;
+          max-height: 100%;
+        }
+
+
+
+        .fa-3x {
+          color: #edc32d;
+        }
+
+        .navbar {
+          max-height: 120px;
+          background-color: transparent;
+        }
+
+
+
+
+
+        .slideOutRight {
+          height: 0px;
+          animation-duration: 2s;
+        }
+
+
+        .slideInLeft {
+          height: 0px;
+          animation-duration: 2s;
+          z-index: -100;
+        }
+
+        .fadeIn Box {}
+
+        .fadeIn {
+          animation-delay: 0.5s;
+          animation-duration: 0.1s;
+        }
+
+        .fadeOut {
+          animation-delay: 0.1s;
+        }
+
+        .fadeInDown {
+          animation-delay: 1s;
+          animation-duration: 1s;
+        }
+
+        .fadeInUp {
+          animation-delay: 6s;
+          margin-left: 40px;
+        }
+
+        #alignRight {
+          align-items: flex-end;
+        }
+
+        .navbar-brand {
+          padding: 0 15px;
+          height: 80px;
+          line-height: 80px;
+        }
+
+        .navbar-brand a:hover {}
+
+        .navbar-toggle {
+          /* (80px - button height 34px) / 2 = 23px */
+          margin-top: 23px;
+          padding: 9px 10px !important;
+        }
+        /*  @media (min-width: 768px) {*/
+        .navbar-nav>li>a {
+          /* (80px - line-height of 27px) / 2 = 26.5px */
+          padding-top: 0px;
+          padding-bottom: 0px;
+          line-height: 0px;
+        }
+
+        .a1 {
+          position: relative;
+          bottom: 100px;
+          font-size: 12pt;
+          visibility: hidden;
+        }
+
+        .a2 {
+          visibility: hidden;
+        }
+
+
+
+        img {
+          height: auto;
+          /* Make sure images are scaled correctly. */
+          width: 100%;
+          /* Adhere to container width. */
+          display: block;
+        }
+        .hm-blue-strong {
+          position: relative;
+          width: 250px;
+          height: 250px;
+          border-style: solid;
+          border-color: black;
+          border-width: 2px;
+          margin: 0px;
+          vertical-align: top;
+          background-size: 100% 100%
+        }
+      }
+
+      @media only screen and (max-width: 1000px) {
+        /*CSS for smaller screens*/
+      }
+
+      @media only screen and (max-width: 480px) {
+        /*CSS for mobile*/
+        #main-pic {
+          position: relative;
+          top: 100px;
+          height: 500px;
+          width: 500px;
+          z-index: -5;
+        }
+
+        #logo {
+          position: relative;
+          top: 300px;
+          max-height: 100%;
+          max-width: 100%;
+        }
+        #navItem {
+          font-size: 25px;
+        }
+
+        .p-2 {
+          position: relative;
+          right: 30px;
+        }
+
+        .navbar-nav>li>a {
+          /* (80px - line-height of 27px) / 2 = 26.5px */
+          padding-top: 0px;
+          padding-bottom: 0px;
+          line-height: 0px;
+        }
+
+        .navbar-brand {
+          padding: 0 15px;
+          height: 80px;
+          line-height: 80px;
+        }
+
+        .navbar-brand a:hover {}
+
+        .navbar-toggle {
+          /* (80px - button height 34px) / 2 = 23px */
+          margin-top: 23px;
+          padding: 9px 10px !important;
+        }
+
+        .fa-5x {
+          max-height: 50px;
+        }
+        /*hover stuff*/

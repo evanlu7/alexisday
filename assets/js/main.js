@@ -73,7 +73,7 @@ $(document).ready(function(){
   $(document).scroll(function() {
     scroll_pos = $(this).scrollTop();
     if (scroll_pos > 1400) {
-      $(".quote1").addClass("animated rollIn");
+      $(".quote1").addClass("animated fadeIn");
       $(".quote1").addClass('visibility: visible');
     } else {
       $(".quote1").addClass('visibility: hidden');
@@ -85,7 +85,7 @@ $(document).ready(function(){
   $(document).scroll(function() {
     scroll_pos = $(this).scrollTop();
     if (scroll_pos > 1400) {
-      $(".quote2").addClass("animated rollIn");
+      $(".quote2").addClass("animated fadeIn");
       $(".quote2").addClass('visibility: visible');
     } else {
       $(".quote2").addClass('visibility: hidden');
